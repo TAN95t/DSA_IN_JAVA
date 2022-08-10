@@ -38,7 +38,7 @@ public class solution {
     }
 
     public static void main(String[] args){
-        String str = "aabb";
+        String str = "abaaba";
         System.out.println(partitions(str).toString());
     }
 }
