@@ -1,4 +1,4 @@
-package CheckIfGraphIsConnected;
+package Graphs.CheckIfGraphIsConnected;
 
 public class Edge {
     int v1;

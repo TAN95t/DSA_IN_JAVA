@@ -1,4 +1,4 @@
-package CheckIfGraphIsConnected;
+package Graphs.CheckIfGraphIsConnected;
 
 import java.util.*;
 
