@@ -20,14 +20,14 @@ public class solution {
             }
         }
 
-        for(Map.Entry<Character, Integer> it : map.entrySet()){
-            System.out.println(it.getKey() + " "+ it.getValue());
-        }
+        // for(Map.Entry<Character, Integer> it : map.entrySet()){
+        //     System.out.println(it.getKey() + " "+ it.getValue());
+        // }
 
         for(int i=0; i<b.length(); i++){
             char curr = b.charAt(i);
             if(!map.containsKey(curr)){
-                System.out.println(curr);
+                map.put(curr, 1);
             }
             else{
                 map.put(curr, map.get(curr)-1);
