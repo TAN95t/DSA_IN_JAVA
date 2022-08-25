@@ -170,7 +170,7 @@ public class solution {
     }
 
     public static void main(String[] args){
-        int nodes[] = {1,2,3,4,5,-1,-1,-1,-1,10,11,14,-1,-1,15,-1,-1,12,-1,-1,6,-1,7,-1,8,13,-1,-1,9,-1,-1};
+        int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
         Node root = buildTree(nodes);
 
         System.out.println("Top view:"+ topView(root).toString());
